@@ -1,0 +1,36 @@
+a.btn:hover {
+  background-color: burlywood;
+}
+
+a.btn {
+  font-weight: 660;
+  font-size: larger;
+}
+
+body > nav {
+  background-color: #73cde7;
+}
+
+#kategori {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+}
+
+#inputtext {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+  background-color: beige;
+  color: blue;
+  width: 50ch;
+  text-transform: uppercase;
+}
+
+#alamat {
+  /* border-radius: 10px; */
+  background-color: beige;
+  color: blue;
+  height: 100px;
+  width: 650px;
+}

@@ -1,0 +1,153 @@
+<!-- https://url-korang.pages.dev/dashboard -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Permohonan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body class="row">
+    <nav
+      class="bg-info col-2 sticky-top px-4 py-2 d-flex flex-column gap-4"
+      style="height: 100vh"
+    >
+      <!-- Sidebar -->
+      <div style="width: 200px; height: 50px; background-color: burlywood">
+        Logo
+      </div>
+      <div id="nav-main" class="d-flex flex-column gap-2">
+        <a href="#" class="btn text-start">Dashboard</a>
+        <a href="../Permohonan/index.html" class="btn text-start">Permohonan</a>
+        <a href="../orders/index.html" class="btn text-start">Kelulusan</a>
+        <a href="../logistics/index.html" class="btn text-start">Pembayaran</a>
+        <a href="../logistics/index.html" class="btn text-start">Admin</a>
+        <a href="../logistics/index.html" class="btn text-start">Report</a>
+      </div>
+      <div id="nav-footer" class="mt-auto d-flex flex-column gap-2">
+        <a href="../account.html" class="btn text-start">
+          <div>Avatar</div>
+          <p>Account</p>
+        </a>
+        <a href="#" class="btn text-start">Logout</a>
+      </div>
+    </nav>
+    <main class="col">
+      <!-- Main content -->
+      <h3>PERMOHONAN</h3>
+      <!-- PENGENALAN -->
+      <h5 style="color: blue">PENGENALAN ASNAF</h5>
+      <div class="d-sm-flex flex-row justify-content-start gap-4">
+        <div class="d-sm-flex p-0" id="kategori">
+          <div class="form-check ms-2">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexKategori"
+              id="flexKategori1"
+              checked
+            />
+            <label class="form-check-label" for="flexKategori1"> STAFF </label>
+          </div>
+          <div class="form-check ms-2">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexKategori"
+              id="flexKategori2"
+            />
+            <label class="form-check-label" for="flexKategori2"> AWAM </label>
+          </div>
+          <div class="form-check ms-2">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexKategori"
+              id="flexKategori2"
+            />
+            <label class="form-check-label" for="flexKategori2">
+              INSTITUSI
+            </label>
+          </div>
+        </div>
+        <div>
+          <p>
+            BULAN KELULUSAN
+            <span>
+              <select
+                class="form-select p-0 w-30"
+                aria-label="Default select example"
+              >
+                <option selected>JANUARY</option>
+                <option value="1">JANUARY</option>
+                <option value="2">FEBRUARY</option>
+                <option value="3">MARCH</option>
+                <option value="3">APRIL</option>
+                <option value="3">JUNE</option>
+                <option value="3">JULY</option>
+                <option value="3">AUGUST</option>
+                <option value="3">SEPTEMBER</option>
+                <option value="3">OCTOBER</option>
+                <option value="3">NOVEMBER</option>
+                <option value="3">DECEMBER</option>
+              </select>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="pengenalan">
+        <div class="mb-3 row">
+          <label for="pemohon" class="col-sm-2 col-form-label"
+            >Nama Pemohon</label
+          >
+          <div class="col-sm-10" id="inputtext">
+            <input
+              type="text"
+              class="form-control-plaintext text-uppercase"
+              id="pemohon"
+              value=""
+            />
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Alamat Pemohon</label
+          >
+          <textarea
+            class="form-control text-uppercase"
+            id="alamat"
+            rows="3"
+          ></textarea>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <!-- LATAR BELAKAN ASNAF -->
+      <h5 style="color: blue">INFO ASNAF</h5>
+      <!-- BANTUAN DICADANGKAN -->
+      <h5 style="color: blue">BANTUAN DICADANG</h5>
+      <!-- PENDAPATAN DAN PERBELANJAAN -->
+      <h5 style="color: blue">PENDAPATAN DAN PERBELANJAAN</h5>
+      <!-- MAKLUMAT PERBANKAN -->
+      <h5 style="color: blue">MAKLUMAT PERBANKAN</h5>
+      <!-- DI CADANG / DIPROCESS -->
+      <h5 style="color: blue">DICADANG DAN DI PROCESS</h5>
+      <!-- STATUS -->
+      <h5 style="color: blue">STATUS</h5>
+    </main>
+
+    <!-- BUAT ATAS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
