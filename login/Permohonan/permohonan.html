@@ -44,7 +44,7 @@
       <!-- PENGENALAN -->
       <h5 style="color: blue">PENGENALAN ASNAF</h5>
       <div class="d-sm-flex flex-row justify-content-start gap-4">
-        <div class="d-sm-flex p-0" id="kategori">
+        <div class="d-sm-flex p-2" id="kategori">
           <div class="form-check ms-2">
             <input
               class="form-check-input"
@@ -76,7 +76,28 @@
             </label>
           </div>
         </div>
+        <div class="py-2">BULAN KELULUSAN :</div>
         <div>
+          <select
+            class="form-select py-2 w-20"
+            aria-label="Default select example"
+          >
+            <option selected>BULAN KELULUSAN..........</option>
+            <option value="1">JANUARY</option>
+            <option value="2">FEBRUARY</option>
+            <option value="3">MARCH</option>
+            <option value="3">APRIL</option>
+            <option value="3">JUNE</option>
+            <option value="3">JULY</option>
+            <option value="3">AUGUST</option>
+            <option value="3">SEPTEMBER</option>
+            <option value="3">OCTOBER</option>
+            <option value="3">NOVEMBER</option>
+            <option value="3">DECEMBER</option>
+          </select>
+        </div>
+
+        <!-- <div>
           <p>
             BULAN KELULUSAN
             <span>
@@ -99,11 +120,11 @@
               </select>
             </span>
           </p>
-        </div>
+        </div> -->
       </div>
-      <div class="pengenalan">
+      <div class="pengenalan py-2">
         <div class="mb-3 row">
-          <label for="pemohon" class="col-sm-2 col-form-label"
+          <label for="pemohon" class="col-sm-2 col-form-label ps-4"
             >Nama Pemohon</label
           >
           <div class="col-sm-10" id="inputtext">
@@ -111,19 +132,154 @@
               type="text"
               class="form-control-plaintext text-uppercase"
               id="pemohon"
+              name="pemohon"
               value=""
             />
           </div>
         </div>
+        <div class="d-flex flex-row mb-3">
+          <div class="p-2">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label ps-2"
+                >NRIC/SSM</label
+              >
+              <div class="col-sm-10" id="nrictext">
+                <input
+                  type="text"
+                  class="form-control-plaintext text-uppercase"
+                  id="nric"
+                  name="nric"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label ps-2"
+                >STAFF ID</label
+              >
+              <div class="col-sm-10" id="staffidtext">
+                <input
+                  type="text"
+                  class="form-control-plaintext text-uppercase"
+                  id="staffid"
+                  name="staffid"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label ps-2"
+                >NO. TELEFON</label
+              >
+              <div class="col-sm-10" id="phonetext">
+                <input
+                  type="text"
+                  class="form-control-plaintext text-uppercase"
+                  id="phone"
+                  name="phone"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label ps-2"
+                >Email</label
+              >
+              <div class="col-sm-10" id="emailtext">
+                <input
+                  type="text"
+                  class="form-control-plaintext text-lowercase"
+                  id="email"
+                  name="email"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label"
+          <label for="exampleFormControlTextarea1" class="form-label ps-2"
             >Alamat Pemohon</label
           >
           <textarea
             class="form-control text-uppercase"
             id="alamat"
+            name="alamat"
             rows="3"
           ></textarea>
+        </div>
+        <div class="d-flex flex-row mb-3">
+          <div class="p-2">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label ps-2"
+                >Bandar</label
+              >
+              <div class="col-sm-10" id="bandartext">
+                <input
+                  type="text"
+                  class="form-control-plaintext text-uppercase"
+                  id="bandar"
+                  name="bandar"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label ps-2"
+                >Poskod</label
+              >
+              <div class="col-sm-10" id="poskodtext">
+                <input
+                  type="number"
+                  class="form-control-plaintext text-uppercase"
+                  id="poskod"
+                  name="poskod"
+                  min="0"
+                  max="99999"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <div>
+              <p>
+                NEGERI
+                <span>
+                  <select
+                    class="form-select mt-2 w-30"
+                    aria-label="Default select example"
+                    id="negeri"
+                    name="negeri"
+                  >
+                    <option selected id="negeriselect">PILIH NEGERI</option>
+                    <option value="1">PERLIS</option>
+                    <option value="1">KEDAH</option>
+                    <option value="2">PERAK</option>
+                    <option value="3">SELANGOR</option>
+                    <option value="3">NEGERI SEMBILAN</option>
+                    <option value="3">MELAKA</option>
+                    <option value="3">JOHOR</option>
+                    <option value="3">PAHAMG</option>
+                    <option value="3">TERENGGANU</option>
+                    <option value="3">KELANTAN</option>
+                    <option value="3">SABAH</option>
+                    <option value="3">SARAWAK</option>
+                    <option value="3">WILAYAH PERSEKUTUAN</option>
+                    <option value="3">W.P. PUTRAJAYA</option>
+                    <option value="3">W.P. LABUAN</option>
+                  </select>
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <br />

@@ -12,8 +12,8 @@ body > nav {
 }
 
 #kategori {
-  /* box-sizing: border-box;
-  border: 1px solid green; */
+  box-sizing: border-box;
+  border: 1px solid green;
   border-radius: 10px;
 }
 
@@ -23,7 +23,7 @@ body > nav {
   border-radius: 10px;
   background-color: beige;
   color: blue;
-  width: 50ch;
+  width: 65ch;
   text-transform: uppercase;
 }
 
@@ -32,5 +32,73 @@ body > nav {
   background-color: beige;
   color: blue;
   height: 100px;
-  width: 650px;
+  width: 780px;
+}
+
+#bandartext {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+  background-color: beige;
+  color: blue;
+  width: 25ch;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+#poskodtext {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+  background-color: beige;
+  color: blue;
+  width: 25ch;
+  padding-left: 10px;
+  /* text-transform: uppercase; */
+}
+
+#negeriselect {
+  background-color: beige;
+}
+
+#nrictext {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+  background-color: beige;
+  color: blue;
+  width: 20ch;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+#staffidtext {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+  background-color: beige;
+  color: blue;
+  width: 15ch;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+#phonetext {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+  background-color: beige;
+  color: blue;
+  width: 15ch;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+#emailtext {
+  /* box-sizing: border-box;
+  border: 1px solid green; */
+  border-radius: 10px;
+  background-color: beige;
+  color: blue;
+  width: 33ch;
+  text-transform: uppercase;
+  padding-left: 10px;
 }
