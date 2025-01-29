@@ -102,3 +102,9 @@ body > nav {
   text-transform: uppercase;
   padding-left: 10px;
 }
+
+input[type="text"],
+input[type="number"] {
+  background-color: beige;
+  color: blue;
+}
