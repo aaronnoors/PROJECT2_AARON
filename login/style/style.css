@@ -29,7 +29,7 @@ body > nav {
 
 #alamat {
   /* border-radius: 10px; */
-  background-color: beige;
+  background-color: bisque;
   color: blue;
   height: 100px;
   width: 780px;
@@ -105,6 +105,22 @@ body > nav {
 
 input[type="text"],
 input[type="number"] {
-  background-color: beige;
+  background-color: bisque;
   color: blue;
+}
+
+.col {
+  background-color: whitesmoke;
+}
+
+#bantuan {
+  width: 50ch;
+}
+
+#amountnumber {
+  background-color: whitesmoke;
+}
+
+#kadar {
+  background-color: whitesmoke;
 }
